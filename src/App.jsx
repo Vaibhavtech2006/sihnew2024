@@ -2,14 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar1 from "./Components/navbar/Navbar1";
 import LoginSignUp from "./Components/login/login";
-<<<<<<< HEAD:my-project/src/App.jsx
-import FaceDetection from "./Components/scndpage/scndpage.1";
-=======
-import SecondPage from "./Components/scndpage/scndpage"; // Import secondpage
-import FaceDetection from "./Components/scndpage/facedetection"; // Import facedetection
->>>>>>> 274e0cf (sih2024):frontened/src/App.jsx
+// import FaceDetection from "./Components/scndpage/scndpage.1";
+// import SecondPage from "./Components/scndpage/scndpage"; // Import secondpage
+// import FaceDetection from "./Components/scndpage/facedetection"; // Import facedetection
+import FaceDetection from "./Components/scndpage/scndpage";
+import SecondPage from "./Components/scndpage/scndpage";
 import "./App.css";
-
 function App() {
   return (
     <Router>
